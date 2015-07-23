@@ -1,0 +1,12 @@
+/*
+ * Project Network Security
+ * author: Ignacio José Codoñer Gil (igcogi@gmail.com)
+ *  - st number : 0416040
+ * */
+
+package projectNS.library.conection;
+
+public interface IConectionListener {
+	public void onNewConection(String clientID);
+	public void onDisconection(String clientID);
+}
